@@ -4,7 +4,7 @@ This repository contains a collection of data analysis projects focused on clini
 
 ---
 
-## 📊 Projects
+## Projects
 
 ### 01 - Oncology Clinical Trial Analysis
 Analysis of global oncology clinical trials using data from ClinicalTrials.gov.
