@@ -1,0 +1,52 @@
+# =========================
+# OS / System Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Jupyter / Python
+# =========================
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.venv/
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs / Temp Files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Sensitive Files
+# =========================
+*.env
+.env.*
+*.key
+*.pem
+*.crt
+
+# =========================
+# macOS Finder junk in subfolders
+# =========================
+**/.DS_Store  
