@@ -6,6 +6,8 @@
 ._*
 .Spotlight-V100
 .Trashes
+Thumbs.db
+**/.DS_Store
 
 # =========================
 # Jupyter / Python
@@ -22,6 +24,7 @@ __pycache__/
 venv/
 .env/
 .venv/
+env/
 
 # =========================
 # IDE / Editor Files
@@ -38,15 +41,31 @@ venv/
 *.tmp
 
 # =========================
-# Sensitive Files
+# Sensitive / Personal Files
 # =========================
+# Prevent accidental upload of personal/local data
 *.env
 .env.*
 *.key
 *.pem
 *.crt
 
+# Documents / Personal files (outside project scope)
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.xls
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.mov
+*.mp4
+*.zip
+
 # =========================
-# macOS Finder junk in subfolders
+# Allow ONLY project data folder
 # =========================
-**/.DS_Store  
+!data/
+!data/**

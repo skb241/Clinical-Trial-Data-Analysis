@@ -1,42 +1,65 @@
 # Clinical Trial Data Analysis Portfolio
 
-This repository contains a collection of data analysis projects focused on clinical trials. The goal is to demonstrate practical skills in data extraction, cleaning, analysis, and visualization using real-world healthcare data.
+## Overview
+This repository contains a series of projects focused on clinical trial data analysis, progressing from exploratory analysis to applied risk modeling.
+
+The goal is to demonstrate practical skills in:
+- Clinical data interpretation  
+- Data cleaning and transformation  
+- Visualization and reporting  
+- Risk-based analytical thinking  
 
 ---
 
 ## Projects
 
-### 01 - Oncology Clinical Trial Analysis
-Analysis of global oncology clinical trials using data from ClinicalTrials.gov.
+### 01 — Oncology Clinical Trial Analysis
+Exploratory analysis of ~5,000 oncology trials from ClinicalTrials.gov.
 
-**Key Highlights:**
-- Extracted ~5000 trials using API-based data collection
-- Cleaned and structured real-world clinical data
-- Analyzed trial phases, statuses, and enrollment sizes
-- Identified geographic and temporal trends
-- Produced publication-style visualizations
+Key focus:
+- Trial distributions (status, phase, geography)
+- Enrollment patterns (log-scale analysis)
+- Temporal trends in trial activity
+- Sponsor landscape
 
- Location: `projects/01_oncology_trial_analysis`
-
----
-
-## Skills Demonstrated
-
-- Python (Pandas, NumPy, Matplotlib)
-- API data extraction (ClinicalTrials.gov)
-- Data cleaning & preprocessing
-- Exploratory Data Analysis (EDA)
-- Data visualization
-- Structured project organization
+Skills demonstrated:
+- API data extraction  
+- Data cleaning and structuring  
+- Exploratory data analysis  
+- Data visualization  
 
 ---
 
-## Purpose
+### 02 — Clinical Trial RBM Analysis (Diabetes)
+Application of a Risk-Based Monitoring (RBM) framework to interventional diabetes trials.
 
-This portfolio is designed to showcase applied data analysis skills relevant to:
-- Clinical Research Assistant / Coordinator roles
-- Clinical data management
-- Healthcare analytics
+Key focus:
+- Risk scoring using operational and clinical features  
+- Stratification by enrollment, phase, and intervention type  
+- Identification of high-risk trial profiles  
+
+Skills demonstrated:
+- Feature engineering  
+- Risk modeling logic  
+- Advanced visualization  
+- Clinical interpretation  
+
+---
+
+## Tech Stack
+- Python (pandas, numpy, matplotlib, seaborn)
+- Jupyter / VSCode
+- ClinicalTrials.gov API
+
+---
+
+## Repository Structure
+projects/
+├── 01_oncology_trial_analysis/
+├── 02_clinical_trial_rbm_analysis/
+
+data/
+results/
 
 ---
 
@@ -49,5 +72,7 @@ BSc Biology – University of Waterloo
 
 ## Notes
 
-- All data used is publicly available from databases like ClinicalTrials.gov  
+- All projects are fully reproducible
+- All data used is publicly available from databases like ClinicalTrials.gov (and other publically available APIs)  
+- Figures are generated programmatically
 - Projects are structured to reflect real-world analytical workflows  
