@@ -17,6 +17,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+**/__pycache__/
 
 # =========================
 # Virtual Environments
@@ -25,6 +26,8 @@ venv/
 .env/
 .venv/
 env/
+**/venv/
+**/.venv/
 
 # =========================
 # IDE / Editor Files
