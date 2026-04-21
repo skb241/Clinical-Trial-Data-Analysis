@@ -59,7 +59,6 @@ env/
 *.pptx
 *.xlsx
 *.xls
-*.csv
 *.jpg
 *.jpeg
 *.png
